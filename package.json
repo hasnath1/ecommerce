@@ -1,10 +1,9 @@
 {
-  "name": "ecommerce",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "repository": {
     "type": "git",
@@ -18,6 +17,10 @@
   },
   "homepage": "https://github.com/hasnath1/ecommerce#readme",
   "devDependencies": {
+    "@types/node": "^16.11.11",
+    "@types/react": "^17.0.37",
+    "@types/react-dom": "^17.0.11",
+    "@types/tailwindcss": "^2.2.4",
     "autoprefixer": "^10.4.0",
     "jest": "^27.4.1",
     "postcss": "^8.4.4",
@@ -26,6 +29,9 @@
     "typescript": "^4.5.2"
   },
   "dependencies": {
-    "next": "^12.0.4"
+    "next": "^12.0.4",
+    "postcss-nested": "^5.0.6",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   }
 }
