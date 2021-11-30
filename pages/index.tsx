@@ -1,6 +1,6 @@
 const Index = () => {
   return (
-    <div>
+    <div className="bg-red-500">
       <h1>Hello Next.js</h1>
     </div>
   );

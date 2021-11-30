@@ -1,5 +1,6 @@
 import type { AppProps } from "next/app";
 import type { FunctionComponent } from "react";
+import "../style/global.css";
 
 const App: FunctionComponent<AppProps> = ({
   Component,
