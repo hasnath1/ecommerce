@@ -1,6 +1,6 @@
 import type { FunctionComponent } from "react";
 
-const Review: FunctionComponent<{
+const Rating: FunctionComponent<{
   numberOfStarsToShow: 0 | 1 | 2 | 3 | 4 | 5;
   buyers: number;
 }> = ({ numberOfStarsToShow, buyers }) => {
@@ -41,12 +41,12 @@ const Review: FunctionComponent<{
   return (
     <div className="flex items-center">
       {Stars}
-      <span className="text-[14px]">
+      <span className="pl-1 text-[14px] text-[#F96800] font-medium">
         {`(${buyers > 1000 ? `${Math.ceil(buyers / 1000)}k` : buyers})`}
       </span>
     </div>
   );
 };
 
-export default Review;
-export { Review };
+export default Rating;
+export { Rating };

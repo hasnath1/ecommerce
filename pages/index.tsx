@@ -1,17 +1,10 @@
-import Product from "../components/product_item/demo_1";
+// import Product_1 from "../components/Product_1/Product_1";
+// import Product_2 from "../components/Product_2/Product_2";
+// import Product_3 from "../components/Product_3/Product_3";
+// import Footer from "../components/Footer/Footer";
 
 const Index = () => {
-  return (
-    <div className="p-10">
-      <Product
-        imgUrl="/super_monitor.jpg"
-        name="Dell UltraSharp U2720Q 27 Inch 4K UHD (3840 x 2160) LED Backlit LCD IPS USB-C Monitor"
-        review={10}
-        price={99}
-        productId={"/"}
-      />
-    </div>
-  );
+  return <div className="bg-gray-400 h-[100vh]"></div>;
 };
 
 export default Index;
