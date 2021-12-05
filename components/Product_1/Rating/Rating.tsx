@@ -42,7 +42,7 @@ const Rating: FunctionComponent<{
     <div className="flex items-center">
       {Stars}
       <span className="pl-1 text-[14px] text-[#F96800] font-medium">
-        {`(${buyers > 1000 ? `${Math.ceil(buyers / 1000)}k` : buyers})`}
+        {`(${buyers > 999 ? `${Math.ceil(buyers / 1000)}k` : buyers})`}
       </span>
     </div>
   );
