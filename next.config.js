@@ -5,7 +5,7 @@
  */
 
 const nextConfig = {
-  images: {},
+  compress: true,
 };
 
 module.exports = nextConfig;
