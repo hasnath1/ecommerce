@@ -4,7 +4,7 @@ import TopBar from "./TopMobileBar";
 
 const Mobile = () => {
   return (
-    <div>
+    <div className="lg:hidden">
       <TopBar />
       <BottomBar />
     </div>

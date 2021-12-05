@@ -58,6 +58,6 @@
   }
 
   .footer-content-ctn {
-    @apply grid lg:grid-flow-col lg:grid-cols-6 grid-flow-row max-w-[1300px] mx-auto py-[40px] px-4;
+    @apply grid lg:grid-flow-col lg:grid-cols-6 xl:px-0 grid-flow-row max-w-[1300px] mx-auto py-[40px] px-4;
   }
 }
