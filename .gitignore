@@ -2,3 +2,4 @@ node_modules
 .next
 SERVICES.md
 dist
+.vscode

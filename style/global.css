@@ -7,7 +7,13 @@
 @tailwind utilities;
 
 @layer base {
-  /* PRODUCT STYLE */
+  /* TopCategory */
+
+  .top-category {
+    @apply max-w-[1300px] px-6 py-4 font-monts text-[17px] text-[#444444] font-semibold flex  mx-auto shadow shadow-gray-300 my-10 overflow-hidden relative min-h-[58px] z-[1] bg-white;
+  }
+
+  /* Single PRODUCT STYLE */
   .product-card-ctn {
     @apply p-[20px] bg-white box-border max-w-[300px] flex flex-col rounded hover:drop-shadow-lg cursor-pointer transition duration-200 border-[0.1px] font-poppins;
   }

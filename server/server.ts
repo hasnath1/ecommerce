@@ -1,6 +1,8 @@
 import express from "express";
 import next from "next";
 import colors from "colors";
+import { graphqlHTTP } from "express-graphql";
+// import root from "./graphql/root";
 
 // Development Step Up
 colors.enable();
@@ -15,6 +17,14 @@ const nextApp = next({ dev: mode, dir: "." });
 (async () => {
   await nextApp.prepare();
   const handle = nextApp.getRequestHandler();
+
+  // app.get(
+  //   "/graphql/",
+  //   graphqlHTTP({
+  //     graphiql: mode,
+  //     schema: root,
+  //   })
+  // );
 
   app.get("*", (req, res) => {
     return handle(req, res);
